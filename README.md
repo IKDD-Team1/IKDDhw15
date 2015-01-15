@@ -13,3 +13,24 @@ Download the data of GeoLife GPS Trajectories.
 
 ## Dateset
 [GeoLife GPS Trajectories] (http://research.microsoft.com/en-us/downloads/b16d359d-d164-469e-9fd4-daa38f2b2e13/)
+
+## Insert
+
+**Insert Time**
++ psql - Time: 98.2643408775 s
++ mongo - Time: 407.198955059 s
+
+## Query
+
+**Command**
+
+```sql
+    SELECT * from test_table WHERE user_id='003' AND date='2008-11-19' ORDER BY time DESC;
+```
+```javascript
+    db.test_collection.find({user:"003", date: "2008-11-19"}).sort({time:1})
+```
+**Qeruy Time**
+
++ psql - Time: 185.560 ms
++ mongo - Time: 672ms
