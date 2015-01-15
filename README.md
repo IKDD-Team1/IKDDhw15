@@ -14,10 +14,14 @@ Download the data of GeoLife GPS Trajectories.
 ## Dateset
 [GeoLife GPS Trajectories] (http://research.microsoft.com/en-us/downloads/b16d359d-d164-469e-9fd4-daa38f2b2e13/)
 
+## Database Version
++ postgres: v2.6.6
++ mongo: v9.4
+
 ## Insert
 
 **Insert Time**
-+ psql - Time: 98.2643408775 s
++ postgres - Time: 98.2643408775 s
 + mongo - Time: 407.198955059 s
 
 ## Query
@@ -32,5 +36,5 @@ Download the data of GeoLife GPS Trajectories.
 ```
 **Qeruy Time**
 
-+ psql - Time: 185.560 ms
++ postgres - Time: 185.560 ms
 + mongo - Time: 672ms
