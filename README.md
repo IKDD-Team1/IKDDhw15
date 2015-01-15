@@ -15,8 +15,8 @@ Download the data of GeoLife GPS Trajectories.
 [GeoLife GPS Trajectories] (http://research.microsoft.com/en-us/downloads/b16d359d-d164-469e-9fd4-daa38f2b2e13/)
 
 ## Database Version
-+ postgres: v2.6.6
-+ mongo: v9.4
++ postgres: v9.4
++ mongodb: v2.6.6
 
 ## Insert
 
