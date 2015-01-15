@@ -27,6 +27,7 @@ def get_data(file_name, included_cols=[0,1,5,6]):
     data = []
     for row in reader:
         content = list(row.split(',')[i] for i in included_cols)
+        content[-1] = content[-1][:-2]
         data.append(content)
     f.close()
     return data
@@ -45,8 +46,6 @@ def user_insert(db_config, data_path, user, table_name='test_table'):
                            'longitude', 'date', 'time'], item)
     mydb.commit()
     mydb.close()
-
-
 
 if __name__=='__main__':
     config = json_io.read_json('config.json')
