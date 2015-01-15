@@ -1,0 +1,15 @@
+{
+  "database" : {
+    "dbtype" : "postgresql",
+    "dbname" : "test_database",
+    "username" : "tester",
+    "host" : "localhost",
+    "encoding" : "utf8",
+    "password" : "test_password"
+   },
+   "data": {
+    "folder_path": "./Geolife_Trajectories_1.3/Data/"
+   },
+   "table": "test_table"
+}
+
