@@ -34,7 +34,7 @@ Download the data of GeoLife GPS Trajectories.
 ```javascript
     db.test_collection.find({user:"003", date: "2008-11-19"}).sort({time:1})
 ```
-**Qeruy Time**
+**Query Time**
 
 + postgres - Time: 185.560 ms
 + mongo - Time: 672ms
